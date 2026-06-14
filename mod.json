@@ -1,0 +1,26 @@
+{
+    "geode": "5.0.0-beta.1",
+	"gd": {
+		"android": "2.2081",
+		"win": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"version": "1.6.0",
+	"id": "hjfod.gdshare",
+    "name": "GDShare",
+    "developer": "HJfod",
+    "description": "Share levels as files",
+    "resources": {
+        "spritesheets": {
+            "GDShare": [
+                "resources/*.png"
+            ]
+        }
+    },
+    "dependencies": {
+        "hjfod.gmd-api": "1.5.0",
+        "geode.node-ids": "1.22.0"
+    },
+    "tags": ["utility", "universal"]
+}
